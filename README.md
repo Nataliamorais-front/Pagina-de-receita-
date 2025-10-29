@@ -1,4 +1,4 @@
-Site de Receita feita por mim.
+Site de Receita feita por mim.  
 Tecnologias utilizadas: 
 
 - HTML5  
