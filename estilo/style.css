@@ -73,7 +73,7 @@ img{
     font-size: 1.57rem;
 }
 
-.ingredientes p{
+.ingredientes ul li{
     padding-top: 20px;
     color: white;
     font-family: var(--font-texto);
@@ -122,5 +122,9 @@ img{
         line-height: 3rem; 
         color: black;
         font-weight: 600;
+    }
+
+    main{
+        width: 90%;
     }
 }
