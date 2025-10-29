@@ -1,0 +1,126 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --font-titulo: "Dancing Script", cursive;
+    --font-texto:  "Poppins", sans-serif;
+}
+
+
+
+body{
+    background-color:#FFB84C;
+    background-image: url(../img/superficie-escura-com-espaco-em-branco-e-fast-food-menu-editada.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+   
+
+main{
+    background-color: rgba(255, 255, 255, 0.329);
+    max-width: 800px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.ingredientes{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 30px -7px, rgba(12, 11, 11, 0.3) 0px 12px 20px -10px;
+   border-radius: 30px; 
+   margin-bottom: 10px;
+    
+}
+
+
+
+.ingredientes  h1{
+    font-family:  var(--font-titulo);
+    font-size: 2.31rem;
+    color: white;
+    margin-bottom: 15px;
+    
+    
+}
+
+.ingredientes h3{
+    font-family: var(--font-texto);
+    margin-top: 10px;
+    font-size: 1.57rem;
+}
+
+.ingredientes p{
+    padding-top: 20px;
+    color: white;
+    font-family: var(--font-texto);
+    font-weight: 400;
+    line-height: 2.689rem;
+    font-size: 1.58rem;
+    
+}
+
+
+.modo-preparo h3{
+       font-family: var(--font-texto);
+        text-align: center; 
+        margin-bottom: 15px;
+        font-size: 1.57rem;
+}
+.modo-preparo{
+   
+    padding: 10px;
+}
+
+.modo-preparo p{
+    padding: 30px;
+    color: white;
+    font-family: var(--font-texto);
+    font-size: 1.56rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 2.689rem;
+    text-indent: 30px;
+
+}
+
+@media (max-width: 768px) {
+
+
+    .ingredientes p {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        color: black;
+        font-weight: 600;
+    }
+
+    .modo-preparo p{
+       font-size: 1.2rem;
+        line-height: 3rem; 
+        color: black;
+        font-weight: 600;
+    }
+}
